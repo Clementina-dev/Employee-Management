@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uO4NS3bxzZKphiVlkVJ1gI4TqE8oQ2kd3qfmFOTCPU4=",
+  "Hash": "flbSv/vT+DdSBkK3VlA9SAiXmPxBWVFfk/wmZc0KSjE=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\5ef637a7-1513-4551-b251-c24b944bafcf_mary.png",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/5ef637a7-1513-4551-b251-c24b944bafcf_mary.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5ef637a7-1513-4551-b251-c24b944bafcf_mary.png"
+    },
+    {
       "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\employee.jpeg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
@@ -49,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\employee.jpeg"
-    },
-    {
-      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\noimage.jpeg",
-      "SourceId": "EmployeeManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\",
-      "BasePath": "_content/EmployeeManagement",
-      "RelativePath": "images/noimage.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\noimage.jpeg"
     },
     {
       "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\noimage.png",
