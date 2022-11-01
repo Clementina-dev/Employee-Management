@@ -104,7 +104,7 @@ namespace EmployeeManagement.Controllers
         }
 
 
-        private string ProcessUploadedFile(EmployeeEditViewModel model){
+        private string ProcessUploadedFile(EmployeeCreateViewModel model){
             string uniqueFileName = null;
                 if (model.Photo != null)
                 {
