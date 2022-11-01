@@ -68,7 +68,7 @@ namespace EmployeeManagement.Controllers
 
                 _employeeRepository.Update(employee);
 
-                return RedirectToAction("details", new { id = newEmployee.Id });
+                return RedirectToAction("index");
             }
 
             return View();
