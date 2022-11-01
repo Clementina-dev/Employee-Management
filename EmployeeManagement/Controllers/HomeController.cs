@@ -63,6 +63,10 @@ namespace EmployeeManagement.Controllers
                 employee.Email = model.Email;
                 employee.Department = model.Department;
                 if(model.Photo != null) {
+                    if (model.ExistingPhotoPath != null)
+                    {
+                       string filePath = Path.Combine(webHostEnvironment.WebRootPath, "images", model.ExistingPhotoPath);
+                    }
                     employee.PhotoPath = ProcessUploadedFile(model);
                 }
 
