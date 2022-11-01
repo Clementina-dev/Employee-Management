@@ -62,18 +62,11 @@ namespace EmployeeManagement.Controllers
                 employee.Name = model.Name;
                 employee.Email = model.Email;
                 employee.Department = model.Department;
-                string uniqueFileName = ProcessUploadedFile(model);
+                if(model.Photo != null) {
+                    employee.PhotoPath = ProcessUploadedFile(model);
+                }
 
-
-
-                Employee newEmployee = new Employee
-                {
-                    Name = model.Name,
-                    Email = model.Email,
-                    Department = model.Department,
-                    PhotoPath = uniqueFileName
-                };
-                _employeeRepository.Add(newEmployee);
+                _employeeRepository.Update(employee);
 
                 return RedirectToAction("details", new { id = newEmployee.Id });
             }
