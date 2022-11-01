@@ -66,6 +66,7 @@ namespace EmployeeManagement.Controllers
                     if (model.ExistingPhotoPath != null)
                     {
                        string filePath = Path.Combine(webHostEnvironment.WebRootPath, "images", model.ExistingPhotoPath);
+                        System.IO.File.Delete(filePath);
                     }
                     employee.PhotoPath = ProcessUploadedFile(model);
                 }
