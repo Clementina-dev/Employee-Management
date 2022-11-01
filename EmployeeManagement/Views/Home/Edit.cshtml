@@ -46,7 +46,9 @@
         </div>
     </div>
 
-    <img src="@photoPath" class="imageThumbnail">
+    <div class="form-group-row col-sm-4 offset-4">
+    <img src="@photoPath" class="imageThumbnail" asp-append-version="true"/>
+    </div>
 
     <div asp-validation-summary="All" class="text-danger"></div>
 
