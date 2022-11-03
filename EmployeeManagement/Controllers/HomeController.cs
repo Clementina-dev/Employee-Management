@@ -23,6 +23,12 @@ namespace EmployeeManagement.Controllers
 
         public ViewResult Details(int? id)
         {
+            Employee employee = _employeeRepository.GetEmployee(id.Value);
+
+            if (employee == null) {
+                Response.StatusCode = 404;
+            }
+
             HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
             {
                 Employee = _employeeRepository.GetEmployee(id ?? 1),
