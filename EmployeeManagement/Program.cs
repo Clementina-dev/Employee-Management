@@ -12,7 +12,7 @@ builder.Services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
 var app = builder.Build();
 
-app.UseStatusCodePagesWithRedirects("/Error/{0}");
+app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
 app.UseStaticFiles();
 app.UseMvc(routes =>
