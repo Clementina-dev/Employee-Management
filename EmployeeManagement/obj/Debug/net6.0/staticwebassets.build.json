@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RTFy3udq6ABoxgo8LhD/KQL42t93sjZ+u+kJDPtC1Pg=",
+  "Hash": "fYPp7pFu1rgaiHk81b4t5CrH4TVVQQO+nUun93UdERM=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\images\\54ca641e-6e23-4f2e-b123-8c3e2208b367_david.jpeg"
     },
     {
-      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\5ef637a7-1513-4551-b251-c24b944bafcf_mary.png",
+      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\d006a99d-5cb8-44b2-b2c8-064ec049ea2b_david.jpeg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
-      "RelativePath": "images/5ef637a7-1513-4551-b251-c24b944bafcf_mary.png",
+      "RelativePath": "images/d006a99d-5cb8-44b2-b2c8-064ec049ea2b_david.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,24 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\5ef637a7-1513-4551-b251-c24b944bafcf_mary.png"
-    },
-    {
-      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\7f1892cc-848e-4e99-9738-58077f6af55d_mary.jpg",
-      "SourceId": "EmployeeManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\",
-      "BasePath": "_content/EmployeeManagement",
-      "RelativePath": "images/7f1892cc-848e-4e99-9738-58077f6af55d_mary.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\7f1892cc-848e-4e99-9738-58077f6af55d_mary.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\d006a99d-5cb8-44b2-b2c8-064ec049ea2b_david.jpeg"
     },
     {
       "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\employee.jpeg",
@@ -100,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\employee.jpeg"
+    },
+    {
+      "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\f711b3a1-82c7-466f-9dcd-b9f0fdea7cf2_mary.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/f711b3a1-82c7-466f-9dcd-b9f0fdea7cf2_mary.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f711b3a1-82c7-466f-9dcd-b9f0fdea7cf2_mary.jpg"
     },
     {
       "Identity": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\wwwroot\\images\\noimage.png",
