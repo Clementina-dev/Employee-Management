@@ -10,10 +10,16 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace EmployeeManagement.Controllers
 {
-    [Route("Error/{statusCode}")]
     public class ErrorController : Controller
     {
+        private readonly ILogger<ErrorController> logger;
 
+        public ErrorController(ILogger<ErrorController> logger)
+        {
+            this.logger = logger;
+        }
+
+        [Route("Error/{statusCode}")]
         public IActionResult Index(int statusCode)
         {
             var statusCodeResult = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
