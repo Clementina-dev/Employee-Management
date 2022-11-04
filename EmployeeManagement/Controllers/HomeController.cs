@@ -23,6 +23,7 @@ namespace EmployeeManagement.Controllers
 
         public ViewResult Details(int? id)
         {
+
             Employee employee = _employeeRepository.GetEmployee(id.Value);
 
             if (employee == null) {
