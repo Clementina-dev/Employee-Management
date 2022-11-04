@@ -12,6 +12,8 @@ builder.Services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
 var app = builder.Build();
 
+app.UseExceptionHandler("/Error");
+
 app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
 app.UseStaticFiles();
