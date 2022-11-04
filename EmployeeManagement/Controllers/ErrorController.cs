@@ -42,9 +42,7 @@ namespace EmployeeManagement.Controllers
             // Retrieve exception details
             var exceptionDetails = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
 
-            ViewBag.ExceptionPath = exceptionDetails.Path;
-            ViewBag.ExceptionMessage = exceptionDetails.Error.Message;
-            ViewBag.StackTrace = exceptionDetails.Error.StackTrace;
+            logger.LogError($"The path {exceptionDetails.Path} threw an exception {exceptionDetails.Error}");
 
             return View("Error");
         }
