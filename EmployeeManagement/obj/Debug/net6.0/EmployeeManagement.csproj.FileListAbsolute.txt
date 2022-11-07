@@ -59,3 +59,6 @@ C:\C# Projects\EmployeesManagement\EmployeeManagement\obj\Debug\net6.0\refint\Em
 C:\C# Projects\EmployeesManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
 C:\C# Projects\EmployeesManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 C:\C# Projects\EmployeesManagement\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.dll
+C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

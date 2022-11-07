@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "THdyb7mMRWACY8utTcK/VclP8Vx/HhQVsGBwHgyI//t3cTAZCKEWiPtnMFOdtNlNZRQRo8oLJpKfbuvj8ZjxUQ==",
+  "dgSpecHash": "5rZJNjyF+MWL0QtIym6o3d7CDwWyG0v/schC+h3oc7MMNQaTyyQBS1nv1FEzsdZi83v4lYRRY4ZcIGW2bcBhVQ==",
   "success": true,
   "projectFilePath": "C:\\C# Projects\\EmployeesManagement\\EmployeeManagement\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,9 @@
     "C:\\Users\\foluk\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\foluk\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\foluk\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\foluk\\.nuget\\packages\\nlog\\5.0.5\\nlog.5.0.5.nupkg.sha512",
+    "C:\\Users\\foluk\\.nuget\\packages\\nlog.extensions.logging\\5.1.0\\nlog.extensions.logging.5.1.0.nupkg.sha512",
+    "C:\\Users\\foluk\\.nuget\\packages\\nlog.web.aspnetcore\\5.1.5\\nlog.web.aspnetcore.5.1.5.nupkg.sha512",
     "C:\\Users\\foluk\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\foluk\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\foluk\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
