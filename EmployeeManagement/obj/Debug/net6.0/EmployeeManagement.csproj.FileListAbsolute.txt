@@ -62,3 +62,4 @@ C:\C# Projects\EmployeesManagement\EmployeeManagement\obj\Debug\net6.0\ref\Emplo
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.dll
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\nlog.config

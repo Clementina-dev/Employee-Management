@@ -1,4 +1,6 @@
-﻿namespace EmployeeManagement.Models
+﻿using EmployeeManagement.Models;
+
+namespace EmployeeManagement.Repository
 {
     public class MockEmployeeRepository : IEmployeeRepository
     {
@@ -13,14 +15,14 @@
             };
         }
 
-        public Employee Add(Employee employee)
+        public Employee AddEmployee(Employee employee)
         {
             employee.Id = _employees.Max(e => e.Id) + 1;
             _employees.Add(employee);
             return employee;
         }
 
-        public Employee Delete(int id)
+        public Employee DeleteEmployee(int id)
         {
             Employee employee = _employees.FirstOrDefault(e => e.Id == id);
             if (employee != null)
@@ -40,7 +42,7 @@
             return _employees.FirstOrDefault(e => e.Id == Id);
         }
 
-        public Employee Update(Employee employeeChanges)
+        public Employee UpdateEmployee(Employee employeeChanges)
         {
             Employee employee = _employees.FirstOrDefault(e => e.Id == employeeChanges.Id);
             if (employee != null)

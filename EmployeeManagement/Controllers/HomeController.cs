@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.Models;
+using EmployeeManagement.Repository;
 using EmployeeManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -79,7 +80,7 @@ namespace EmployeeManagement.Controllers
                     employee.PhotoPath = ProcessUploadedFile(model);
                 }
 
-                _employeeRepository.Update(employee);
+                _employeeRepository.UpdateEmployee(employee);
 
                 return RedirectToAction("index");
             }
@@ -101,7 +102,7 @@ namespace EmployeeManagement.Controllers
                     Department = model.Department,
                     PhotoPath = uniqueFileName
                 };
-                _employeeRepository.Add(newEmployee);
+                _employeeRepository.AddEmployee(newEmployee);
 
                 return RedirectToAction("details", new { id = newEmployee.Id });
             }

@@ -1,4 +1,5 @@
 using EmployeeManagement.Models;
+using EmployeeManagement.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

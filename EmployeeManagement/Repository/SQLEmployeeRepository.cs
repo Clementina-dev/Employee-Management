@@ -1,4 +1,6 @@
-﻿namespace EmployeeManagement.Models
+﻿using EmployeeManagement.Models;
+
+namespace EmployeeManagement.Repository
 {
     public class SQLEmployeeRepository : IEmployeeRepository
     {
@@ -9,14 +11,14 @@
             this.context = context;
         }
 
-        public Employee Add(Employee employee)
+        public Employee AddEmployee(Employee employee)
         {
             context.Employees.Add(employee);
             context.SaveChanges();
             return employee;
         }
 
-        public Employee Delete(int id)
+        public Employee DeleteEmployee(int id)
         {
             Employee employee = context.Employees.Find(id);
             if (employee != null)
@@ -37,7 +39,7 @@
             return context.Employees.Find(id);
         }
 
-        public Employee Update(Employee employeeChanges)
+        public Employee UpdateEmployee(Employee employeeChanges)
         {
             var employee = context.Employees.Attach(employeeChanges);
             employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
