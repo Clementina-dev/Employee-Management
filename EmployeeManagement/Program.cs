@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("EmployeeDBConnection");
 
 builder.Services.AddDbContextPool<AppDbContext>(db => db.UseSqlServer(connectionString));
-
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
 builder.Services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
