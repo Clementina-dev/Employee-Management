@@ -87,3 +87,4 @@ C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\C# Projects\EmployeesManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
